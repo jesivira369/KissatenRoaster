@@ -8,7 +8,6 @@ import Section from "./components/Section";
 import Tueste from "./components/Tueste";
 import Title from "./components/Title";
 import image from './components/kissaten-imagen.png'
-import Tarjeta from './components/tarjeta'
 
 function App() {
   const [roastTime, setRoastTime] = useState("");
