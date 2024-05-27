@@ -36,4 +36,5 @@ const Input = ({ label, ...props }) => {
     </Control>
   );
 };
+
 export default Input;

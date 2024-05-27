@@ -2,20 +2,22 @@ import styled from "styled-components";
 import { device } from './Device'
 
 const Section = styled.div`
-  background-color: #eee;
-  border-top: solid 2px palevioletred;
-  padding: 20px 25px;
-  width: 500px;
-  box-shadow: 0px 2px 3px rgb(0, 0, 0, 0.3);
+  width: 100%;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-  @media ${device.mobileL} {
-    max-width: 500px;
-    flex-direction: column
+  @media ${device.mobileS} {
+    padding: 10px;
   }
-  
-  @media ${device.mobileM} {
-    max-width: 400px;
-    flex-direction: column
+
+  @media ${device.tablet} {
+    padding: 40px;
+  }
+
+  @media ${device.laptop} {
+    padding: 60px;
   }
 `;
 

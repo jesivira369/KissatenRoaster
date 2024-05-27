@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import { device } from './Device'
+import styled from 'styled-components';
+import { device } from './Device';
 
-const Button = styled.button`
-  background: #5dc1b9;
+const CancelButton = styled.button`
+  background: #f31282;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -10,10 +10,10 @@ const Button = styled.button`
   cursor: pointer;
   font-size: 16px;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-right: 10px;
 
   &:hover {
-    background: #42a8a1;
+    background: #c50e68;
   }
 
   @media ${device.mobileS} {
@@ -32,4 +32,4 @@ const Button = styled.button`
   }
 `;
 
-export default Button;
+export default CancelButton;
